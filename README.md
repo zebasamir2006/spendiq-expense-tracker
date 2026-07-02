@@ -47,23 +47,24 @@ Whether you're tracking everyday spending or exploring your financial habits, Sp
 ```text
 SpendIQ/
 │
-├── app.py
-├── expense.py
-├── analytics.py
-├── charts.py
-├── db.py
-├── auth.py
-├── exports/
-│   └── export.py
-├── database/
-│   └── expense_tracker.db
+├── ui/
+│   ├── app.py
+│   ├── add_expense.py
+│   └── dashboard.py
+│
 ├── images/
 │   ├── addexpense.png
 │   ├── viewexpense.png
 │   ├── analytics.png
 │   ├── charts.png
 │   └── exportcsv.png
-├── requirements.txt
+│
+├── app_web.py              # Main Streamlit application
+├── expense.py              # Expense management
+├── analytics.py            # Expense analytics
+├── charts.py               # Data visualization
+├── init_db.py              # Database initialization
+├── requirements.txt        # Project dependencies
 └── README.md
 ```
 
